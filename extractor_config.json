@@ -1,0 +1,18 @@
+{
+  "versionCode": 1,
+  "message": "الإصدار الأولي - التحديث الأول لخوارزميات فك التشفير",
+  "minAppVersion": 1,
+  "extractor": {
+    "libraryVersion": "0.26.2",
+    "userAgent": "com.google.android.youtube/19.16.39 (Linux; U; Android 14) gzip",
+    "cipherPatterns": {
+      "signatureFunction": "function split(a){a=a.split(\"\")}function reverse(a){a.reverse()}function splice(a,b){a.splice(0,b)}",
+      "nsigPattern": "/-[A-Za-z0-9_-]{40,50}/g"
+    }
+  },
+  "downloadUrls": {
+    "cipherJs": "https://raw.githubusercontent.com/maxtito3030/ytdownloader-extractor/main/cipher_v1.js",
+    "nsigWasm": "https://raw.githubusercontent.com/maxtito3030/ytdownloader-extractor/main/nsig_v1.wasm",
+    "playerJs": "https://raw.githubusercontent.com/maxtito3030/ytdownloader-extractor/main/player_base.js"
+  }
+}
